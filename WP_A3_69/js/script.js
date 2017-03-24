@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
-            function (res) {
+            function sayHello(res) {
               var message = 
                 res.firstName + " " + res.lastName
               if (res.likesChineseFood) {
