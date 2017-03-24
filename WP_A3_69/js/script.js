@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded",
               var temp =
                 document.getElementById("name").value;
 
-                if(temp === res.student1){
+                if(temp === res.name1){
               var message = 
                  "Course is :  " + res.course1 + 
                   "attendance is: " + res.attendance1;
               
               }
-              else if (temp === res.student2){
+              else if (temp === res.name2){
                 message = "Course is :  " + res.course2 + 
                  "attendance is : " + res.attendance2;
                  message += "you are in defaulters"
