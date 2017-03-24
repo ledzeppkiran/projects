@@ -31,7 +31,8 @@ document.addEventListener("DOMContentLoaded",
                 .innerHTML = "<h2>" + message + "</h2>";
             });
       
-  }
+   }
+  );
 
 
  
