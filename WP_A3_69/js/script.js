@@ -29,10 +29,9 @@ document.addEventListener("DOMContentLoaded",
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
-            });
+            };
       
   }
-);
 
 
  
