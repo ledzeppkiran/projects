@@ -10,22 +10,27 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
+
+              var temp =
+                document.getElementById("name").value;
+
+                if(temp === res.student1){
               var message = 
-                res.firstName + " " + res.lastName
-              if (res.likesChineseFood) {
-                message += " likes Chinese food";
+                 "Course is :  " + res.course1 + "attendance
+                 is : " + res.attendance1;
+              
               }
-              else {
-                message += " doesn't like Chinese food";
+              else if (temp === res.student2){
+                message = "Course is :  " + res.course2 + "attendance
+                 is : " + res.attendance2;
+                 message += "you are in defaulters"
               }
-              message += " and uses ";
-              message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
+          
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
             });
-      });
+      
   }
 );
 
