@@ -5,7 +5,7 @@
       "email": "jack0@gmail.com",
       "contactno": 9840533140,
       "cgpa" : 1.0,
-      "date_of_birth" : "25/09/1996"
+      "dob" : "25/09/1996"
   },
   {
       "name": "Jill",
@@ -13,7 +13,7 @@
       "email": "jill@gmail.com",
       "contactno": 9920945649,
       "cgpa" : 0.2,
-      "date_of_birth" : "18/07/1992"
+      "dob" : "18/07/1992"
   },
   {
       "name": "Matthews",
@@ -21,6 +21,6 @@
       "email": "matt@gmail.com",
       "contactno": 28540002,
       "cgpa" : 0.0,
-      "date_of_birth" : "38/01/1765"
+      "dob : "38/01/1765"
   }
 ]
