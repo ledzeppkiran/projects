@@ -1,0 +1,26 @@
+[
+  {
+      "name": "Jack",
+      "sapid": 70011016063,
+      "email": "jack0@gmail.com",
+      "contactno": 9840533140,
+      "cgpa" : 1.0,
+      "date_of_birth" : "25/09/1996"
+  },
+  {
+      "name": "Jill",
+      "sapid": 7001116064,
+      "email": "jill@gmail.com",
+      "contactno": 9920945649,
+      "cgpa" : 0.2,
+      "date_of_birth" : "18/07/1992"
+  },
+  {
+      "name": "Matthews",
+      "sapid": 70011016065,
+      "email": "matt@gmail.com",
+      "contactno": 28540002,
+      "cgpa" : 0.0,
+      "date_of_birth" : "38/01/1765"
+  }
+]
