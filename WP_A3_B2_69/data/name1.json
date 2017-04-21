@@ -1,0 +1,16 @@
+{
+  "firstName": "Jack",
+  "secondName": "Jill",
+  "sapid1": 70011016063,
+   "email1": "jack@gmail.com",
+  "contactno1": 9840533140,
+  "dob1": "25th September, 2015",
+  "cgpa1": 4.0,
+  "sapid2": 70011016043,
+  "email2": "jill@gmail.com",
+  "contactno2": 9920945649,
+  "dob2": "4th July, 2013",
+  "cgpa2": 3.8,
+  "default1": false,
+  "default2": true
+}
